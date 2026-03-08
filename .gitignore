@@ -1,0 +1,6 @@
+echo "data/" >> .gitignore
+echo "checkpoints/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pth" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo ".ipynb_checkpoints/" >> .gitignore
