@@ -1,6 +1,15 @@
-echo "data/" >> .gitignore
-echo "checkpoints/" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "*.pth" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo ".ipynb_checkpoints/" >> .gitignore
+# echo "data/" >> .gitignore
+# echo "checkpoints/" >> .gitignore
+# echo "__pycache__/" >> .gitignore
+# echo "*.pth" >> .gitignore
+# echo ".DS_Store" >> .gitignore
+# echo ".ipynb_checkpoints/" >> .gitignore
+__pycache__/train_utils.cpython-310.pyc
+.gitignore
+checkpoints/resnet20/latest_model.pth
+data/
+checkpoints/
+__pycache__/
+*.pth
+.DS_Store
+.ipynb_checkpoints/
